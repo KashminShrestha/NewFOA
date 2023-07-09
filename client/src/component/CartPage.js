@@ -110,7 +110,7 @@ const CartPage = () => {
                             <h1>Cart Details</h1>
                             <h3>Cart Items:{cart_items_number}</h3>
                             <h3>Total_price:{`${cart_items_price}`}</h3>
-                            <div className='btn btn-primary' onClick={handleShipping}>Go to shipping</div>
+                            <div className='btn btn-primary' onClick={handleShipping}>Order</div>
                         </div>
 
 
